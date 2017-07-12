@@ -2,8 +2,33 @@
 <html>
 <head>
   <title>Praise be to Eth</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>
-  <h1>Praise be to Eth</h1>
+  <div class="header">
+    <div class="brand">
+        <h1>Praise be to Eth</h1>
+        <h2>And blessed art thou amongst Hodlrs</h2>
+    </div>
+    <ul class="menu">
+        <li><a href="#" onclick="changePrayer('HAIL_ETH')">Hail Ether</a></li>
+        <li><a href="#" onclick="changePrayer('OUR_ETH')">Our ETH</a></li>
+        <li><a href="#" onclick="changePrayer('GLORY_BE')">Glory Be</a></li>
+        <li><a href="#" onclick="changePrayer('VITALIKS_CREED')">Vitalik's Creed</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="prayer"></div>
+  </div>
+  <div class="footer">
+      <div class="donate">
+          <a href="donate.html">
+              <img src="assets/ethereum.png">
+              <span>Donate</span>
+          </a>
+      </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
